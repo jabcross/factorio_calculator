@@ -1,0 +1,142 @@
+{
+    "recipes": {
+        "pipe": {
+            "time": 0.5,
+            "iron_plate": 1
+        },
+        "red_science": {
+            "time": 0.5,
+            "copper_plate": 1,
+            "gear": 1
+        },
+        "gear": {
+            "time": 0.5,
+            "iron_plate": 2
+        },
+        "iron_plate": {
+            "machine": "furnace",
+            "time": 3.2,
+            "iron_ore": 1
+        },
+        "green_science": {
+            "time": 8.7,
+            "belt": 1,
+            "inserter": 1
+        },
+        "belt": {
+            "time": 0.5,
+            "iron_plate": 0.5,
+            "gear": 0.5
+        },
+        "inserter": {
+            "time": 2.2,
+            "iron_plate": 1,
+            "gear": 1,
+            "green_circuit": 1
+        },
+        "green_circuit": {
+            "time": 1.2,
+            "iron_plate": 1,
+            "cable": 3
+        },
+        "cable": {
+            "time": 0.25,
+            "copper_plate": 0.5
+        },
+        "copper_plate": {
+            "machine": "furnace",
+            "time": 3.2,
+            "copper_ore": 1
+        },
+        "black_science": {
+            "time": 5,
+            "red_ammo": 0.5,
+            "grenade": 0.5,
+            "wall": 1
+        },
+        "red_ammo": {
+            "time": 3,
+            "copper_plate": 5,
+            "steel": 1,
+            "yellow_ammo": 1
+        },
+        "steel": {
+            "machine": "furnace",
+            "time": 16,
+            "iron_plate": 5
+        },
+        "yellow_ammo": {
+            "time": 1,
+            "iron_plate": 4
+        },
+        "iron_ore": {
+            "time": 2,
+            "machine": "miner"
+        },
+        "copper_ore": {
+            "time": 1,
+            "machine": "miner"
+        },
+        "blue_science":{
+            "time": 12,
+            "sulfur": 0.5,
+            "red_circuit": 1.5,
+            "engine": 1
+        },
+        "sulfur":{
+            "time":0.5,
+            "water":15,
+            "petroleum_gas":15,
+            "machine":"chemical_plant"
+        },
+        "petroleum_gas":{
+            "time":0.1111111111111111,
+            "crude_oil":2.2222222222222223,
+            "machine":"refinery"
+        },
+        "red_circuit":{
+            "time":6,
+            "plastic":2,
+            "cable":4,
+            "green_circuit":2
+        },
+        "plastic":{
+            "time":0.5,
+            "coal":0.5,
+            "petroleum_gas":10,
+            "machine":"chemical_plant"
+        },
+        "crude_oil":{
+            "time": 1,
+            "machine": "pumpjack"
+        },
+        "engine":{
+            "time":10,
+            "steel":1,
+            "gear":1,
+            "pipe":2
+        }
+    },
+    "machines": {
+        "furnace": {
+            "speed": 2,
+            "name" : "steel furnace(s)"
+        },
+        "miner": {
+            "speed": 0.5,
+            "name": "miners"
+        },
+        "chemical_plant": {
+            "speed": 1,
+            "name": "chemical plant(s)"
+        },
+        "refinery": {
+            "speed": 1,
+            "name": "refinery(es)"
+        },
+        "pumpjack": {
+            "speed": 1,
+            "name": "pumpjack(s)"
+        }
+    }
+}
